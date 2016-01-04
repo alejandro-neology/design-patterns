@@ -34,15 +34,18 @@ public class PersonBuilder extends AbstractBuilder<Person> {
 
 	@Override
 	public void validate() {
-		Preconditions.checkNotNull(instance.getName());
-		Preconditions.checkNotNull(instance.getBirthDate());
-		Preconditions.checkNotNull(instance.getAge());
+		Preconditions.checkNotNull(instance.getName(),
+				new BussinessException(String.format(ErrorResult.EMPTRY_RESULT.getMessage(), "Name")));
+		Preconditions.checkNotNull(instance.getBirthDate(),
+				new BussinessException(String.format(ErrorResult.EMPTRY_RESULT.getMessage(), "Birth date")));
+		Preconditions.checkNotNull(instance.getAge(),
+				new BussinessException(String.format(ErrorResult.EMPTRY_RESULT.getMessage(), "Age")));
 	}
 
 	@Override
 	public void inject() {
 		Preconditions.checkNotNull(instance.getBirthDate(),
-				new BussinessException(ErrorResult.EMPTRY_RESULT.getMessage()));
+				new BussinessException(String.format(ErrorResult.EMPTRY_RESULT.getMessage(), "Birth date")));
 		instance.setAge(TimeHelper.getAge(instance.getBirthDate()));
 	}
 

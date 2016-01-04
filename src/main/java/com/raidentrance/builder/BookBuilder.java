@@ -2,7 +2,9 @@ package com.raidentrance.builder;
 
 import com.google.common.base.Preconditions;
 import com.raidentrance.builder.commons.AbstractBuilder;
+import com.raidentrance.commons.ErrorResult;
 import com.raidentrance.model.Book;
+import com.raidentrance.model.BussinessException;
 
 public class BookBuilder extends AbstractBuilder<Book> {
 
@@ -32,7 +34,8 @@ public class BookBuilder extends AbstractBuilder<Book> {
 
 	@Override
 	public void validate() {
-		Preconditions.checkNotNull(instance.getIsbn());
+		Preconditions.checkNotNull(instance.getIsbn(),
+				new BussinessException(String.format(ErrorResult.EMPTRY_RESULT.getMessage(), "Isbn")));
 	}
 
 	@Override
