@@ -8,7 +8,8 @@ package com.raidentrance.commons;
  *
  */
 public enum ErrorResult {
-	EMPTRY_RESULT("%s cannot be null");
+	EMPTRY_RESULT("%s cannot be null"),
+	INVALID_ARGUMENT("%s is not a valid type");
 	private String message;
 
 	private ErrorResult(String message) {
