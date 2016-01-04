@@ -5,4 +5,4 @@
  * @author alejandrobautista
  *
  */
-package com.raidentrance.builder.singleton;
+package com.raidentrance.factory;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.raidentrance.builder.singleton;
+package com.raidentrance.singleton;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;

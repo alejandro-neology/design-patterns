@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.raidentrance.builder.factory;
+package com.raidentrance.factory;
 
 import com.raidentrance.model.stripes.Sprite;
 
