@@ -13,7 +13,7 @@ import com.raidentrance.model.BussinessException;
 import com.raidentrance.model.Person;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class PersonBuilder extends AbstractBuilder<Person> {

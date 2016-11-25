@@ -9,7 +9,7 @@ import com.raidentrance.model.stripes.Hero;
 import com.raidentrance.model.stripes.Sprite;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class SpritesFactory {
@@ -25,6 +25,6 @@ public class SpritesFactory {
 		case BAD_BOY:
 			return new BadBoy();
 		}
-		return null;
+		throw new IllegalArgumentException();
 	}
 }

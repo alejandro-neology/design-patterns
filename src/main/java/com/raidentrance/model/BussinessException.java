@@ -4,7 +4,7 @@
 package com.raidentrance.model;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class BussinessException extends Exception {

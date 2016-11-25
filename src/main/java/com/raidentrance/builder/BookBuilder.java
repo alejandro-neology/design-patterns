@@ -6,6 +6,10 @@ import com.raidentrance.commons.ErrorResult;
 import com.raidentrance.model.Book;
 import com.raidentrance.model.BussinessException;
 
+/**
+ * @author raidentrance
+ *
+ */
 public class BookBuilder extends AbstractBuilder<Book> {
 
 	public BookBuilder() {

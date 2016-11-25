@@ -4,7 +4,7 @@
 package com.raidentrance.commons;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public enum ErrorResult {

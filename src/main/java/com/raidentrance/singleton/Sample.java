@@ -4,7 +4,7 @@
 package com.raidentrance.singleton;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class Sample {

@@ -6,7 +6,7 @@ package com.raidentrance.factory;
 import com.raidentrance.model.stripes.Sprite;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class Sample {

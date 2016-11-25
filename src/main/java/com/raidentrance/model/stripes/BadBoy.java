@@ -6,7 +6,7 @@ package com.raidentrance.model.stripes;
 import java.awt.Graphics;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class BadBoy extends Sprite {

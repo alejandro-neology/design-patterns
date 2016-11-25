@@ -7,7 +7,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class TimeHelper {

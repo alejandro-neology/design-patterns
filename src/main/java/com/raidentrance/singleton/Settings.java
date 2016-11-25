@@ -11,7 +11,7 @@ import com.raidentrance.commons.ErrorResult;
 import com.raidentrance.model.BussinessException;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class Settings {

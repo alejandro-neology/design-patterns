@@ -4,7 +4,7 @@
 package com.raidentrance.builder.commons;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public abstract class AbstractBuilder<T> {

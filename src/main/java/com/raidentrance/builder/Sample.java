@@ -9,7 +9,7 @@ import com.raidentrance.model.Book;
 import com.raidentrance.model.Person;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class Sample {

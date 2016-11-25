@@ -6,7 +6,7 @@ package com.raidentrance.model;
 import java.util.Date;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public class Person {

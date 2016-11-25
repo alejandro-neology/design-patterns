@@ -4,7 +4,7 @@
 package com.raidentrance.adapter;
 
 /**
- * @author alejandrobautista
+ * @author raidentrance
  *
  */
 public interface ConsoleLogger {
